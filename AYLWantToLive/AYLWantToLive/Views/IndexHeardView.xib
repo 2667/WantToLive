@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="IndexHeardView">
+            <connections>
+                <outlet property="contentView" destination="iN0-l3-epB" id="FtG-8N-snw"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="114"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tVe-jJ-vx8">
+                    <rect key="frame" x="115.5" y="28" width="58" height="58"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="58" id="WkY-8Z-bCC"/>
+                        <constraint firstAttribute="width" constant="58" id="oHj-lV-n0B"/>
+                    </constraints>
+                    <state key="normal" title="Button" image="1"/>
+                    <connections>
+                        <action selector="zheng:" destination="-1" eventType="touchUpInside" id="Prz-K0-tYR"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TGE-hu-xYS">
+                    <rect key="frame" x="209.5" y="28" width="58" height="58"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="58" id="af5-nv-JZR"/>
+                        <constraint firstAttribute="width" constant="58" id="nhy-jS-7fH"/>
+                    </constraints>
+                    <state key="normal" title="Button" image="2"/>
+                    <connections>
+                        <action selector="he:" destination="-1" eventType="touchUpInside" id="Lph-dT-usq"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="TGE-hu-xYS" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="0Jc-Re-S8s"/>
+                <constraint firstItem="TGE-hu-xYS" firstAttribute="leading" secondItem="tVe-jJ-vx8" secondAttribute="trailing" constant="36" id="UUl-C1-w71"/>
+                <constraint firstItem="tVe-jJ-vx8" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="d8Q-KB-7t1"/>
+                <constraint firstItem="TGE-hu-xYS" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" constant="51" id="sdZ-0a-vmD"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <point key="canvasLocation" x="132" y="334.63268365817095"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="1" width="61" height="59"/>
+        <image name="2" width="58" height="55"/>
+    </resources>
+</document>
