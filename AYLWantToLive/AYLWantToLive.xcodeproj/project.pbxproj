@@ -134,19 +134,19 @@
 		EFB336D621D3B19F00E54ACC /* success.png in Resources */ = {isa = PBXBuildFile; fileRef = EFB336CE21D3B19F00E54ACC /* success.png */; };
 		EFB336D721D3B19F00E54ACC /* CLProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = EFB336CF21D3B19F00E54ACC /* CLProgressHUD.m */; };
 		EFB336DA21D3B1B700E54ACC /* UIFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = EFB336D921D3B1B700E54ACC /* UIFactory.m */; };
-		EFB336EB21D3B4A700E54ACC /* ic_close_grey2.png in Resources */ = {isa = PBXBuildFile; fileRef = EFB336DC21D3B4A700E54ACC /* ic_close_grey2.png */; };
-		EFB336EC21D3B4A700E54ACC /* 搜索-拷贝@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = EFB336DD21D3B4A700E54ACC /* 搜索-拷贝@3x.png */; };
-		EFB336ED21D3B4A700E54ACC /* 搜索-拷贝@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EFB336DE21D3B4A700E54ACC /* 搜索-拷贝@2x.png */; };
-		EFB336EE21D3B4A700E54ACC /* UIViewExt.m in Sources */ = {isa = PBXBuildFile; fileRef = EFB336E021D3B4A700E54ACC /* UIViewExt.m */; };
-		EFB336EF21D3B4A700E54ACC /* DWQSearchBar.m in Sources */ = {isa = PBXBuildFile; fileRef = EFB336E121D3B4A700E54ACC /* DWQSearchBar.m */; };
-		EFB336F021D3B4A800E54ACC /* DWQTagView.m in Sources */ = {isa = PBXBuildFile; fileRef = EFB336E521D3B4A700E54ACC /* DWQTagView.m */; };
-		EFB336F121D3B4A800E54ACC /* HistorySearchCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EFB336E721D3B4A700E54ACC /* HistorySearchCell.xib */; };
-		EFB336F221D3B4A800E54ACC /* HistorySearchCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EFB336E821D3B4A700E54ACC /* HistorySearchCell.m */; };
-		EFB336F321D3B4A800E54ACC /* HotSerachCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EFB336EA21D3B4A700E54ACC /* HotSerachCell.m */; };
 		EFB336F621D3B4C400E54ACC /* DWQSearchController.m in Sources */ = {isa = PBXBuildFile; fileRef = EFB336F421D3B4C400E54ACC /* DWQSearchController.m */; };
 		EFB336F921D3BBE000E54ACC /* ResaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EFB336F821D3BBE000E54ACC /* ResaViewController.m */; };
 		EFB336FB21D3D05000E54ACC /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFB336FA21D3D05000E54ACC /* StoreKit.framework */; };
 		EFB336FE21D3D3CE00E54ACC /* DBManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EFB336FD21D3D3CD00E54ACC /* DBManager.m */; };
+		EFB3371121D4739300E54ACC /* ic_close_grey2.png in Resources */ = {isa = PBXBuildFile; fileRef = EFB3370221D4739300E54ACC /* ic_close_grey2.png */; };
+		EFB3371221D4739300E54ACC /* 搜索-拷贝@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = EFB3370321D4739300E54ACC /* 搜索-拷贝@3x.png */; };
+		EFB3371321D4739300E54ACC /* 搜索-拷贝@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EFB3370421D4739300E54ACC /* 搜索-拷贝@2x.png */; };
+		EFB3371421D4739300E54ACC /* UIViewExt.m in Sources */ = {isa = PBXBuildFile; fileRef = EFB3370621D4739300E54ACC /* UIViewExt.m */; };
+		EFB3371521D4739300E54ACC /* DWQSearchBar.m in Sources */ = {isa = PBXBuildFile; fileRef = EFB3370721D4739300E54ACC /* DWQSearchBar.m */; };
+		EFB3371621D4739300E54ACC /* DWQTagView.m in Sources */ = {isa = PBXBuildFile; fileRef = EFB3370B21D4739300E54ACC /* DWQTagView.m */; };
+		EFB3371721D4739300E54ACC /* HistorySearchCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EFB3370D21D4739300E54ACC /* HistorySearchCell.xib */; };
+		EFB3371821D4739300E54ACC /* HistorySearchCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EFB3370E21D4739300E54ACC /* HistorySearchCell.m */; };
+		EFB3371921D4739300E54ACC /* HotSerachCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EFB3371021D4739300E54ACC /* HotSerachCell.m */; };
 		EFD6420721D3764800050167 /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = EFD641FD21D3764800050167 /* FMDatabaseQueue.m */; };
 		EFD6420821D3764800050167 /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = EFD6420021D3764800050167 /* FMDatabaseAdditions.m */; };
 		EFD6420921D3764800050167 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = EFD6420121D3764800050167 /* FMDatabase.m */; };
@@ -445,20 +445,6 @@
 		EFB336CF21D3B19F00E54ACC /* CLProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLProgressHUD.m; sourceTree = "<group>"; };
 		EFB336D821D3B1B700E54ACC /* UIFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIFactory.h; sourceTree = "<group>"; };
 		EFB336D921D3B1B700E54ACC /* UIFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIFactory.m; sourceTree = "<group>"; };
-		EFB336DC21D3B4A700E54ACC /* ic_close_grey2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_close_grey2.png; sourceTree = "<group>"; };
-		EFB336DD21D3B4A700E54ACC /* 搜索-拷贝@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "搜索-拷贝@3x.png"; sourceTree = "<group>"; };
-		EFB336DE21D3B4A700E54ACC /* 搜索-拷贝@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "搜索-拷贝@2x.png"; sourceTree = "<group>"; };
-		EFB336DF21D3B4A700E54ACC /* DWQSearchBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DWQSearchBar.h; sourceTree = "<group>"; };
-		EFB336E021D3B4A700E54ACC /* UIViewExt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIViewExt.m; sourceTree = "<group>"; };
-		EFB336E121D3B4A700E54ACC /* DWQSearchBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DWQSearchBar.m; sourceTree = "<group>"; };
-		EFB336E221D3B4A700E54ACC /* UIViewExt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIViewExt.h; sourceTree = "<group>"; };
-		EFB336E421D3B4A700E54ACC /* HistorySearchCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HistorySearchCell.h; sourceTree = "<group>"; };
-		EFB336E521D3B4A700E54ACC /* DWQTagView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DWQTagView.m; sourceTree = "<group>"; };
-		EFB336E621D3B4A700E54ACC /* HotSerachCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HotSerachCell.h; sourceTree = "<group>"; };
-		EFB336E721D3B4A700E54ACC /* HistorySearchCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HistorySearchCell.xib; sourceTree = "<group>"; };
-		EFB336E821D3B4A700E54ACC /* HistorySearchCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HistorySearchCell.m; sourceTree = "<group>"; };
-		EFB336E921D3B4A700E54ACC /* DWQTagView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DWQTagView.h; sourceTree = "<group>"; };
-		EFB336EA21D3B4A700E54ACC /* HotSerachCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HotSerachCell.m; sourceTree = "<group>"; };
 		EFB336F421D3B4C400E54ACC /* DWQSearchController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DWQSearchController.m; sourceTree = "<group>"; };
 		EFB336F521D3B4C400E54ACC /* DWQSearchController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DWQSearchController.h; sourceTree = "<group>"; };
 		EFB336F721D3BBE000E54ACC /* ResaViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ResaViewController.h; sourceTree = "<group>"; };
@@ -466,6 +452,20 @@
 		EFB336FA21D3D05000E54ACC /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 		EFB336FC21D3D3CD00E54ACC /* DBManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBManager.h; sourceTree = "<group>"; };
 		EFB336FD21D3D3CD00E54ACC /* DBManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBManager.m; sourceTree = "<group>"; };
+		EFB3370221D4739300E54ACC /* ic_close_grey2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_close_grey2.png; sourceTree = "<group>"; };
+		EFB3370321D4739300E54ACC /* 搜索-拷贝@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "搜索-拷贝@3x.png"; sourceTree = "<group>"; };
+		EFB3370421D4739300E54ACC /* 搜索-拷贝@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "搜索-拷贝@2x.png"; sourceTree = "<group>"; };
+		EFB3370521D4739300E54ACC /* DWQSearchBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DWQSearchBar.h; sourceTree = "<group>"; };
+		EFB3370621D4739300E54ACC /* UIViewExt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIViewExt.m; sourceTree = "<group>"; };
+		EFB3370721D4739300E54ACC /* DWQSearchBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DWQSearchBar.m; sourceTree = "<group>"; };
+		EFB3370821D4739300E54ACC /* UIViewExt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIViewExt.h; sourceTree = "<group>"; };
+		EFB3370A21D4739300E54ACC /* HistorySearchCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HistorySearchCell.h; sourceTree = "<group>"; };
+		EFB3370B21D4739300E54ACC /* DWQTagView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DWQTagView.m; sourceTree = "<group>"; };
+		EFB3370C21D4739300E54ACC /* HotSerachCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HotSerachCell.h; sourceTree = "<group>"; };
+		EFB3370D21D4739300E54ACC /* HistorySearchCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HistorySearchCell.xib; sourceTree = "<group>"; };
+		EFB3370E21D4739300E54ACC /* HistorySearchCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HistorySearchCell.m; sourceTree = "<group>"; };
+		EFB3370F21D4739300E54ACC /* DWQTagView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DWQTagView.h; sourceTree = "<group>"; };
+		EFB3371021D4739300E54ACC /* HotSerachCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HotSerachCell.m; sourceTree = "<group>"; };
 		EFD641FC21D3764800050167 /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
 		EFD641FD21D3764800050167 /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseQueue.m; sourceTree = "<group>"; };
 		EFD641FE21D3764800050167 /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
@@ -658,6 +658,8 @@
 		EF82DE2D21CA0DA70054519C /* Other */ = {
 			isa = PBXGroup;
 			children = (
+				EFB3370121D4739300E54ACC /* DWQSearchBar */,
+				EFB3370921D4739300E54ACC /* DWQTagView */,
 				EFB336D821D3B1B700E54ACC /* UIFactory.h */,
 				EFB336D921D3B1B700E54ACC /* UIFactory.m */,
 				EFB336C421D3B19F00E54ACC /* ProgressHUD */,
@@ -706,8 +708,6 @@
 		EF82DE4D21CA2B330054519C /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				EFB336DB21D3B4A700E54ACC /* DWQSearchBar */,
-				EFB336E321D3B4A700E54ACC /* DWQTagView */,
 				EFB3365821D39F0100E54ACC /* ToolsView */,
 				EFE96A0421D323A80032DF5B /* JSDropDownMenu */,
 				EF82DE4E21CA2BB80054519C /* RoomListCell.h */,
@@ -958,34 +958,32 @@
 			path = ProgressHUD;
 			sourceTree = "<group>";
 		};
-		EFB336DB21D3B4A700E54ACC /* DWQSearchBar */ = {
+		EFB3370121D4739300E54ACC /* DWQSearchBar */ = {
 			isa = PBXGroup;
 			children = (
-				EFB336DC21D3B4A700E54ACC /* ic_close_grey2.png */,
-				EFB336DD21D3B4A700E54ACC /* 搜索-拷贝@3x.png */,
-				EFB336DE21D3B4A700E54ACC /* 搜索-拷贝@2x.png */,
-				EFB336DF21D3B4A700E54ACC /* DWQSearchBar.h */,
-				EFB336E021D3B4A700E54ACC /* UIViewExt.m */,
-				EFB336E121D3B4A700E54ACC /* DWQSearchBar.m */,
-				EFB336E221D3B4A700E54ACC /* UIViewExt.h */,
+				EFB3370221D4739300E54ACC /* ic_close_grey2.png */,
+				EFB3370321D4739300E54ACC /* 搜索-拷贝@3x.png */,
+				EFB3370421D4739300E54ACC /* 搜索-拷贝@2x.png */,
+				EFB3370521D4739300E54ACC /* DWQSearchBar.h */,
+				EFB3370621D4739300E54ACC /* UIViewExt.m */,
+				EFB3370721D4739300E54ACC /* DWQSearchBar.m */,
+				EFB3370821D4739300E54ACC /* UIViewExt.h */,
 			);
-			name = DWQSearchBar;
-			path = "../../../../../Downloads/DWQSearchWithHotAndHistory-master/DWQSearchWithHotAndHistory/DWQSearchWithHotAndHistory/DWQSearchBar";
+			path = DWQSearchBar;
 			sourceTree = "<group>";
 		};
-		EFB336E321D3B4A700E54ACC /* DWQTagView */ = {
+		EFB3370921D4739300E54ACC /* DWQTagView */ = {
 			isa = PBXGroup;
 			children = (
-				EFB336E421D3B4A700E54ACC /* HistorySearchCell.h */,
-				EFB336E521D3B4A700E54ACC /* DWQTagView.m */,
-				EFB336E621D3B4A700E54ACC /* HotSerachCell.h */,
-				EFB336E721D3B4A700E54ACC /* HistorySearchCell.xib */,
-				EFB336E821D3B4A700E54ACC /* HistorySearchCell.m */,
-				EFB336E921D3B4A700E54ACC /* DWQTagView.h */,
-				EFB336EA21D3B4A700E54ACC /* HotSerachCell.m */,
+				EFB3370A21D4739300E54ACC /* HistorySearchCell.h */,
+				EFB3370B21D4739300E54ACC /* DWQTagView.m */,
+				EFB3370C21D4739300E54ACC /* HotSerachCell.h */,
+				EFB3370D21D4739300E54ACC /* HistorySearchCell.xib */,
+				EFB3370E21D4739300E54ACC /* HistorySearchCell.m */,
+				EFB3370F21D4739300E54ACC /* DWQTagView.h */,
+				EFB3371021D4739300E54ACC /* HotSerachCell.m */,
 			);
-			name = DWQTagView;
-			path = "../../../../../Downloads/DWQSearchWithHotAndHistory-master/DWQSearchWithHotAndHistory/DWQSearchWithHotAndHistory/DWQTagView";
+			path = DWQTagView;
 			sourceTree = "<group>";
 		};
 		EFD641FB21D3764800050167 /* FMDB */ = {
@@ -1235,12 +1233,12 @@
 			files = (
 				EFB336D521D3B19F00E54ACC /* error.png in Resources */,
 				EFB336D621D3B19F00E54ACC /* success.png in Resources */,
-				EFB336ED21D3B4A700E54ACC /* 搜索-拷贝@2x.png in Resources */,
+				EFB3371321D4739300E54ACC /* 搜索-拷贝@2x.png in Resources */,
 				EF82DDF821C9E8380054519C /* LaunchScreen.storyboard in Resources */,
-				EFB336F121D3B4A800E54ACC /* HistorySearchCell.xib in Resources */,
+				EFB3371721D4739300E54ACC /* HistorySearchCell.xib in Resources */,
 				EF82DE2F21CA0DD70054519C /* citydict.plist in Resources */,
 				EFB336BC21D3B0C400E54ACC /* AYLAboutVersionViewController.xib in Resources */,
-				EFB336EB21D3B4A700E54ACC /* ic_close_grey2.png in Resources */,
+				EFB3371121D4739300E54ACC /* ic_close_grey2.png in Resources */,
 				EF4A6B2D21D0B713001E9A73 /* IndexHeardView.xib in Resources */,
 				EFB336D421D3B19F00E54ACC /* success@2x.png in Resources */,
 				EFB336BF21D3B0C400E54ACC /* AYLSettingViewController.xib in Resources */,
@@ -1252,7 +1250,7 @@
 				EFB336D121D3B19F00E54ACC /* 37x-Checkmark.png in Resources */,
 				EF82DDF021C9E8370054519C /* Main.storyboard in Resources */,
 				EFD6424021D389C100050167 /* MJRefresh.bundle in Resources */,
-				EFB336EC21D3B4A700E54ACC /* 搜索-拷贝@3x.png in Resources */,
+				EFB3371221D4739300E54ACC /* 搜索-拷贝@3x.png in Resources */,
 				EFE96A0921D323A90032DF5B /* ico_make.png in Resources */,
 				EFB336D221D3B19F00E54ACC /* error@2x.png in Resources */,
 			);
@@ -1308,14 +1306,17 @@
 				EF82DED721CA3A8A0054519C /* UIRefreshControl+AFNetworking.m in Sources */,
 				EFD6424921D389C100050167 /* MJRefreshAutoNormalFooter.m in Sources */,
 				EF82DEAB21CA3A810054519C /* SDWebImageWebPCoder.m in Sources */,
+				EFB3371921D4739300E54ACC /* HotSerachCell.m in Sources */,
 				EFE96A0821D323A90032DF5B /* JSDropDownMenu.m in Sources */,
 				EFD6425021D389C100050167 /* MJRefreshAutoFooter.m in Sources */,
 				EF82DE5121CA2BB80054519C /* RoomListCell.m in Sources */,
 				EFB3368F21D39F3800E54ACC /* ATLocationCellView.m in Sources */,
 				EF82DED621CA3A8A0054519C /* UIProgressView+AFNetworking.m in Sources */,
+				EFB3371421D4739300E54ACC /* UIViewExt.m in Sources */,
 				EF82DED421CA3A8A0054519C /* AFNetworkReachabilityManager.m in Sources */,
 				EF82DE9F21CA3A810054519C /* SDImageCache.m in Sources */,
 				EF82DF0121CA3AEE0054519C /* DataManager.m in Sources */,
+				EFB3371521D4739300E54ACC /* DWQSearchBar.m in Sources */,
 				EFB3366A21D39F0200E54ACC /* CHCycleScrollView.m in Sources */,
 				EF82DEDD21CA3A8A0054519C /* AFAutoPurgingImageCache.m in Sources */,
 				EF82DEA021CA3A810054519C /* SDWebImageDownloaderOperation.m in Sources */,
@@ -1336,7 +1337,6 @@
 				EF82DE9421CA3A810054519C /* UIImage+ForceDecode.m in Sources */,
 				EFD6420721D3764800050167 /* FMDatabaseQueue.m in Sources */,
 				EFB336A921D3AD3100E54ACC /* HeViewController.m in Sources */,
-				EFB336F221D3B4A800E54ACC /* HistorySearchCell.m in Sources */,
 				EFB3369421D39F3800E54ACC /* ATRoomInfoCellView.m in Sources */,
 				EFB336BD21D3B0C400E54ACC /* AYLSettingViewController.m in Sources */,
 				EFB3369521D39F3800E54ACC /* ATHouseDetailController.m in Sources */,
@@ -1344,6 +1344,7 @@
 				EF82DED021CA3A8A0054519C /* AFURLResponseSerialization.m in Sources */,
 				EF82DE2321C9EAD80054519C /* AYLIndexViewController.m in Sources */,
 				EFB336D721D3B19F00E54ACC /* CLProgressHUD.m in Sources */,
+				EFB3371621D4739300E54ACC /* DWQTagView.m in Sources */,
 				EFD6424121D389C100050167 /* UIScrollView+MJExtension.m in Sources */,
 				EFB336AC21D3AF4300E54ACC /* ATMyInfoCellView.m in Sources */,
 				EFD6424221D389C100050167 /* NSBundle+MJRefresh.m in Sources */,
@@ -1357,12 +1358,12 @@
 				EF82DED921CA3A8A0054519C /* UIImageView+AFNetworking.m in Sources */,
 				EF82DE3921CA11360054519C /* ResultCityController.m in Sources */,
 				EF82DEFB21CA3A9D0054519C /* NSObject+MJClass.m in Sources */,
+				EFB3371821D4739300E54ACC /* HistorySearchCell.m in Sources */,
 				EFB3367921D39F1D00E54ACC /* ATAlertController.m in Sources */,
 				EFB3366621D39F0200E54ACC /* ATPickerView.m in Sources */,
 				EFB3367021D39F1000E54ACC /* ATRootCell.m in Sources */,
 				EF82DEAA21CA3A810054519C /* UIButton+WebCache.m in Sources */,
 				EFD6420B21D3764800050167 /* FMResultSet.m in Sources */,
-				EFB336F021D3B4A800E54ACC /* DWQTagView.m in Sources */,
 				EF82DDEA21C9E8370054519C /* AppDelegate.m in Sources */,
 				EF82DEFE21CA3A9D0054519C /* MJFoundation.m in Sources */,
 				EFD6424C21D389C100050167 /* MJRefreshGifHeader.m in Sources */,
@@ -1375,7 +1376,6 @@
 				EF82DEF621CA3A9D0054519C /* NSObject+MJKeyValue.m in Sources */,
 				EF82DEA221CA3A810054519C /* NSData+ImageContentType.m in Sources */,
 				EF82DE9E21CA3A810054519C /* SDAnimatedImageRep.m in Sources */,
-				EFB336F321D3B4A800E54ACC /* HotSerachCell.m in Sources */,
 				EFD6424521D389C100050167 /* MJRefreshBackStateFooter.m in Sources */,
 				EFD6423E21D389C100050167 /* UIScrollView+MJRefresh.m in Sources */,
 				EF82DEFC21CA3A9D0054519C /* NSString+MJExtension.m in Sources */,
@@ -1387,7 +1387,6 @@
 				EFB3369221D39F3800E54ACC /* ATLandlordCellView.m in Sources */,
 				EFB3369021D39F3800E54ACC /* ATKeyInformationCellView.m in Sources */,
 				EF82DE9C21CA3A810054519C /* SDWebImageCoder.m in Sources */,
-				EFB336EF21D3B4A700E54ACC /* DWQSearchBar.m in Sources */,
 				EFB336C021D3B0C400E54ACC /* AYLAboutVersionViewController.m in Sources */,
 				EFB336D021D3B19F00E54ACC /* MBProgressHUD.m in Sources */,
 				EFD6424621D389C100050167 /* MJRefreshBackNormalFooter.m in Sources */,
@@ -1396,7 +1395,6 @@
 				EFB3366821D39F0200E54ACC /* UILabel+ATLabel.m in Sources */,
 				EF82DE9921CA3A810054519C /* SDWebImageCoderHelper.m in Sources */,
 				EF82DED321CA3A8A0054519C /* AFURLRequestSerialization.m in Sources */,
-				EFB336EE21D3B4A700E54ACC /* UIViewExt.m in Sources */,
 				EF82DE4221CA11920054519C /* CustomTopView.m in Sources */,
 				EF82DED521CA3A8A0054519C /* AFSecurityPolicy.m in Sources */,
 				EFD6420A21D3764800050167 /* FMDatabasePool.m in Sources */,
