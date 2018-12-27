@@ -147,6 +147,7 @@
 		EFB3371721D4739300E54ACC /* HistorySearchCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EFB3370D21D4739300E54ACC /* HistorySearchCell.xib */; };
 		EFB3371821D4739300E54ACC /* HistorySearchCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EFB3370E21D4739300E54ACC /* HistorySearchCell.m */; };
 		EFB3371921D4739300E54ACC /* HotSerachCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EFB3371021D4739300E54ACC /* HotSerachCell.m */; };
+		EFB3372421D4C39E00E54ACC /* XZMBProgressManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EFB3372221D4C39E00E54ACC /* XZMBProgressManager.m */; };
 		EFD6420721D3764800050167 /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = EFD641FD21D3764800050167 /* FMDatabaseQueue.m */; };
 		EFD6420821D3764800050167 /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = EFD6420021D3764800050167 /* FMDatabaseAdditions.m */; };
 		EFD6420921D3764800050167 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = EFD6420121D3764800050167 /* FMDatabase.m */; };
@@ -466,6 +467,8 @@
 		EFB3370E21D4739300E54ACC /* HistorySearchCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HistorySearchCell.m; sourceTree = "<group>"; };
 		EFB3370F21D4739300E54ACC /* DWQTagView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DWQTagView.h; sourceTree = "<group>"; };
 		EFB3371021D4739300E54ACC /* HotSerachCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HotSerachCell.m; sourceTree = "<group>"; };
+		EFB3372221D4C39E00E54ACC /* XZMBProgressManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XZMBProgressManager.m; sourceTree = "<group>"; };
+		EFB3372321D4C39E00E54ACC /* XZMBProgressManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XZMBProgressManager.h; sourceTree = "<group>"; };
 		EFD641FC21D3764800050167 /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
 		EFD641FD21D3764800050167 /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseQueue.m; sourceTree = "<group>"; };
 		EFD641FE21D3764800050167 /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
@@ -943,6 +946,8 @@
 		EFB336C421D3B19F00E54ACC /* ProgressHUD */ = {
 			isa = PBXGroup;
 			children = (
+				EFB3372321D4C39E00E54ACC /* XZMBProgressManager.h */,
+				EFB3372221D4C39E00E54ACC /* XZMBProgressManager.m */,
 				EFB336C521D3B19F00E54ACC /* MBProgressHUD-Prefix.pch */,
 				EFB336CC21D3B19F00E54ACC /* MBProgressHUD.h */,
 				EFB336C621D3B19F00E54ACC /* MBProgressHUD.m */,
@@ -1408,6 +1413,7 @@
 				EFB3369821D3A22400E54ACC /* ATMyHeadModel.m in Sources */,
 				EF82DEF821CA3A9D0054519C /* NSObject+MJCoding.m in Sources */,
 				EFB3369321D39F3800E54ACC /* ATFacilityCellView.m in Sources */,
+				EFB3372421D4C39E00E54ACC /* XZMBProgressManager.m in Sources */,
 				EFB336F621D3B4C400E54ACC /* DWQSearchController.m in Sources */,
 				EFB3364121D392CC00E54ACC /* AYLDetailViewController.m in Sources */,
 				EFD6424D21D389C100050167 /* MJRefreshFooter.m in Sources */,
